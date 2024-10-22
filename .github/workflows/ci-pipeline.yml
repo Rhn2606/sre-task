@@ -4,11 +4,11 @@ on:
   push:
     branches: [ main ]
     paths:
-      - 'crud-api/**'
+      - 'sre-task/**'
   pull_request:
     branches: [ main ]
     paths:
-      - 'crud-api/**'
+      - 'sre-task/**'
   workflow_dispatch:
 
 env:
